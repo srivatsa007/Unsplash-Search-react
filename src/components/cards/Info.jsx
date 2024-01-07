@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Detail = ({ item, clicked }) => {
+const InfoText = ({ item, clicked }) => {
   const handleClick = () => {
     clicked();
   };
@@ -51,4 +51,4 @@ const Detail = ({ item, clicked }) => {
   );
 };
 
-export default Detail;
+export default InfoText;
